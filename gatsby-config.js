@@ -5,6 +5,7 @@ module.exports = {
     title: `Східниця Таксі`,
     description: `gatsby-hospitality-core`,
     author: `gatsby-hospitality-core`,
+    siteUrl: 'https://skhidnysia.netlify.app/'
   },
   plugins: [
     {
@@ -13,6 +14,12 @@ module.exports = {
         name: `/images`,
         path: `${__dirname}/static/`,
       },
+    },
+    { 
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        sitemapSize: 5000
+      }
     },
     `gatsby-transformer-json`,
      {
