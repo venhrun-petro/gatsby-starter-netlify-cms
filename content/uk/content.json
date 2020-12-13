@@ -32,6 +32,8 @@
     }
   ],
   "contactPhone1": "Name ...",
+  "mapImage": "/images/map.jpg",
+  "dataButton": "Замовити поїздку",
   "mapHeight": "24.050930595874682",
   "contactTitile": "КОНТАКТИ ТА ЗАМОВЛЕННЯ",
   "contactPhone2": "Name ...",
