@@ -32,8 +32,6 @@
     }
   ],
   "contactPhone1": "Name ...",
-  "mapImage": "/images/map.jpg",
-  "dataButton": "Замовити поїздку",
   "mapHeight": "24.050930595874682",
   "contactTitile": "КОНТАКТИ ТА ЗАМОВЛЕННЯ",
   "contactPhone2": "Name ...",
@@ -110,6 +108,8 @@
       "img": "/images/slider2.jpg"
     }
   ],
-  "seoTitle": "Східниця Таксі",
-  "seoDescription": "Східниця Таксі"
+  "seoTitle": "східуск-мел",
+  "dataButton": "Замовити поїздку",
+  "mapImage": "/images/map.jpg",
+  "seoDescription": "східуск-мел"
 }
