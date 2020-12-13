@@ -8,7 +8,7 @@ import HeaderMobile from '~c/includes/NavigationMobile'
 const Layout = ({ children}) => (
   <>
     <head>
-      <meta name="google-site-verification" content="sXqePQOOvIGe8QB2kCRfbBN5cOJqLmtSqnu5urKW8Os" />
+    <meta name="google-site-verification" content="2Aslpxr8KVVJKvUY9dN4GDdfkLnN2WPEQQobTbGoLkw" />     
     </head>
     <Header />
     <HeaderMobile />

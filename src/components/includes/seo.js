@@ -33,8 +33,7 @@ function SEO({ description, lang, meta, keywords, title }) {
     <Helmet
       htmlAttributes={{
         lang,
-      }}
-      google-site-verification="sXqePQOOvIGe8QB2kCRfbBN5cOJqLmtSqnu5urKW8Os"
+      }} 
       title={title}
       titleTemplate={`%s | ${content.seoTitle}`}
       meta={[
