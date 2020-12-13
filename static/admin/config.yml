@@ -160,8 +160,7 @@ collections:
               - {label: "Img", name: "img", widget: image}
               - {label: "Paragraph", name: "paragraph", widget: string}
           - {label: "Seo Title", name: "seoTitle", widget: string} 
-          - {label: "Seo Description", name: "seoDescription", widget: string} 
-          - {label: "Seo Keywords", name: "seoKeywords", widget: string} 
+          - {label: "Seo Description", name: "seoDescription", widget: string}  
 
 
     
