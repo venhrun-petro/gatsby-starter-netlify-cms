@@ -27,7 +27,66 @@ collections:
             fields:
               - {label: "List Name", name: "item", widget: string}
               - {label: "List Image", name: "src", widget: image}
-     
+      - label: "Uk Content"
+        name: "Uk Conetnt"
+        file: "content/uk/content.json"
+        fields:
+          - {label: "Title", name: "title", widget: string} 
+          - {label: "SUB Title", name: "subTitle", widget: string} 
+          - {label: "Teser Img", name: "teaserImage", widget: image} 
+          - {label: "Form img", name: "dataImage", widget: image} 
+          - {label: "Thanks", name: "dataThanks", widget: string} 
+          - {label: "Form Name", name: "dataName", widget: string} 
+          - {label: "Form Phone", name: "dataPhone", widget: string} 
+          - {label: "Data Button", name: "dataButton", widget: string} 
+          - {label: "About Img", name: "aboutImage", widget: image} 
+          - {label: "About Titile", name: "aboutTitile", widget: string}
+          - {label: "About Text", name: "aboutText", widget: string}
+          - {label: "About TExt Strong", name: "aboutTExtStrong", widget: string}
+          - {label: "About Text Bottom", name: "aboutTextBottom", widget: string} 
+          - label: Gallery About
+            name: galleryAbout
+            widget: list
+            fields: 
+              - {label: "List Image", name: "img", widget: image}
+          - {label: "Contact Titile", name: "contactTitile", widget: string} 
+          - {label: "Contact Name1", name: "contactName1", widget: string} 
+          - {label: "Contact Phone1", name: "contactPhone1", widget: string} 
+          - label: Contact Soz1
+            name: contactSoz1
+            widget: list
+            fields: 
+              - {label: "List Link", name: "src", widget: string}
+              - {label: "List Image", name: "img", widget: image}
+          - {label: "Contact Name2", name: "contactName2", widget: string} 
+          - {label: "Contact Phone2", name: "contactPhone2", widget: string} 
+          - label: Contact Soz2
+            name: contactSoz2
+            widget: list
+            fields: 
+              - {label: "List Link", name: "src", widget: string}
+              - {label: "List Image", name: "img", widget: image}
+          - label: Contact Footer Soc
+            name: contactSozFooter
+            widget: list
+            fields: 
+              - {label: "List Link", name: "src", widget: string}
+              - {label: "List Image", name: "img", widget: image}
+          - {label: "Map Image", name: "mapImage", widget: image} 
+          - {label: "Map Width", name: "mapWidth", widget: string} 
+          - {label: "Map Height", name: "mapHeight", widget: string} 
+          - {label: "Footer Text", name: "footerText", widget: string} 
+          - label: Comments
+            name: items
+            widget: list
+            fields: 
+              - {label: "Number", name: "value", widget: string} 
+              - {label: "Title", name: "title", widget: string}
+              - {label: "Img", name: "img", widget: image}
+              - {label: "Paragraph", name: "paragraph", widget: string}
+          - {label: "Seo Title", name: "seoTitle", widget: string} 
+          - {label: "Seo Description", name: "seoDescription", widget: string} 
+          - {label: "Seo Keywords", name: "seoKeywords", widget: string} 
    
   - name: "blog"
     label: "Blog"
