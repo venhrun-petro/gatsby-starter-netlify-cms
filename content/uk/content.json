@@ -43,10 +43,10 @@
   "footerText": "© 2020, Svidnitsa Taxi. All rights reserved",
   "mapWidth": "49.86472288353224",
   "teaserImage": "/images/skhidnycya-vyviska.jpg",
-  "aboutImage": "/images/inbound4207011215460492628.jpg",
+  "aboutImage": "/images/den-shidnytsya-1-1024x683.jpg",
   "aboutTitile": "ПРО НАС",
   "aboutTExtStrong": "Для нас немає нічого неможливого! Звертайтесь – завжди усміхнемось і допоможемо!",
-  "dataImage": "/icons/guests.svg",
+  "dataImage": "/images/inbound4207011215460492628.jpg",
   "contactSoz1": [
     {
       "src": "/",
@@ -61,7 +61,7 @@
       "img": "/icons/twitter.svg"
     }
   ],
-  "dataThanks": "Thanks You!!!",
+  "dataThanks": "Дякую. Чекайте на дзвінок.",
   "contactSoz2": [
     {
       "src": "/",
