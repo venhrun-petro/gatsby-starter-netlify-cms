@@ -2,33 +2,33 @@
   "items": [
     {
       "value": "1",
-      "title": "Jon Harrington",
-      "img": "jon",
-      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "title": "Юлія",
+      "img": "/images/юлія.jpg",
+      "paragraph": "Я постоянно пользуюсь услугами данного такси и мне все очень нравится. Машина приезжает достаточно быстро. Машины хорошие и чисты, водители приветливые и всегда помогут положить необходимое в багажник. Ценовая политика также радует..."
     },
     {
       "value": "2",
-      "title": "Julia Harrington",
-      "img": "Julia",
-      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "title": "Артур",
+      "img": "/images/арт.jpg",
+      "paragraph": "Мне нравиться это такси. Отдыхаю с друзьями в Сходнице частенько. Часто пользуюсь услугами такси. Цены у них нормальные  и машины быстро подъезжают хвалить их можно."
     },
     {
       "value": "3",
-      "title": "Jon Harrington",
-      "img": "jon",
-      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "title": "Богдан",
+      "img": "/images/бодя.jpg",
+      "paragraph": "Класне таксі. Швидко, весело та з комфортом. Наразі я задоволений їхньою роботою. Так тримати хлопці..."
     },
     {
       "value": "4",
-      "title": "Julia Harrington",
-      "img": "Julia",
-      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "title": "Анна",
+      "img": "/images/анна.jpg",
+      "paragraph": "Я дуже рада, що в свій час послухала подругу і почала замовляти дане таксі, коли відпочиваю у Східниці. Жодного разу водії не підводили. Крім швидкої подачі та комфортої машини, мені б хотілося відзначити ввічливе ставлення водіїв, всі хто мені траплялися були доброзичливими та впевненими керувальниками. Поїздки завжди проходять комфортно, тому що в салонах машин чистота і порядок. "
     },
     {
       "value": "5",
-      "title": "Jon Harrington",
-      "img": "jon",
-      "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "title": "Ваня",
+      "img": "/images/ваня.jpg",
+      "paragraph": "Трансфер був замовлений на 8 ранку у Трускавці. Поїзд затримався приблизно на 3 години. Я вже був упевнений, що машина давно вже поїхала. Но я був приємно вражений, коли біля вагону мене чекав відій нашого таксі. По приїзду у Східницю, ціна була як за попередньою домовленістю. Знову я здивований. Водій не вимагав більшої оплати за очікування, так як це була не моя вина. Я, звісно ж всетаки віддячив щедро, але, приємно, що такі люди ще існують. Бажаю вам процвітання у вашій справі."
     }
   ],
   "contactPhone1": "+380977068777",
@@ -81,7 +81,7 @@
       "img": "/icons/linkedin.svg"
     }
   ],
-  "aboutText": "Вам потрібне таксі? Тоді вам до нас. До ваших послуг гарні легкові автомобілі та комфортні мікроавтобуси. Зустрінемо вас з поїзда чи літака у будь-якому місті, та доставимо вас до місця призначення швидко, комфортно та безпечно. Також і в зворотньому напрямку. Допоможемо з багажем та підскажемо все, що вас буде цікавити...",
+  "aboutText": "Вам потрібне таксі? Тоді вам до нас. До ваших послуг гарні легкові автомобілі та комфортні мікроавтобуси. Зустрінемо вас з поїзда чи літака у будь-якому місті, та доставимо вас до місця призначення швидко, комфортно та безпечно. Також і в зворотньому напрямку.  Допоможемо з багажем та підскажемо все, що вас буде цікавити...",
   "galleryAbout": [
     {
       "img": "/images/dsc_1179.jpg"
