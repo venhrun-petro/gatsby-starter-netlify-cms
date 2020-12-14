@@ -15,6 +15,13 @@ module.exports = {
         path: `${__dirname}/static/`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+          endpoint: 'https://netlify.us19.list-manage.com/subscribe/post?u=42cbac8ab50c337705fc6ec2d&amp;id=82e9f85efa',  
+          timeout: 3500,  
+      },
+    },
     { 
       resolve: `gatsby-plugin-sitemap`,
       options: {
@@ -105,3 +112,13 @@ module.exports = {
     'gatsby-plugin-netlify', 
   ],
 }
+
+
+
+ 
+	// <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+ 
+	// <input type="text" value="" name="MMERGE1" class="" id="mce-MMERGE1">
+ 
+	// <input type="text" name="MMERGE5" class="" value="" id="mce-MMERGE5">
+ 

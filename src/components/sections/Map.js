@@ -20,8 +20,7 @@ export class MapCont extends React.Component {
     const style = {
       width: '100%',
       height: '100%'
-    } 
-    console.log( this.props.lat,  'lat')
+    }  
     return (
       <Map 
         google={this.props.google}
