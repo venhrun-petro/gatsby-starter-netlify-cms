@@ -40,7 +40,7 @@
   "contactName1": "Іван",
   "contactName2": "Роман",
   "seoKeywords": "Східниця таксі трансфер екскурсії проживання",
-  "footerText": "© 2020, Таксі Східниця. До ваших послуг",
+  "footerText": "© 2020, Таксі Східниця.  До ваших послуг",
   "mapWidth": "49.226531",
   "teaserImage": "/images/skhidnycya-vyviska.jpg",
   "aboutImage": "/images/den-shidnytsya-1-1024x683.jpg",
@@ -73,16 +73,12 @@
   "subTitle": "Ми до ваших послу",
   "contactSozFooter": [
     {
-      "src": "/",
+      "src": "https://www.facebook.com/profile.php?id=100019553289043",
       "img": "/icons/facebook.svg"
     },
     {
-      "src": "/",
+      "src": "https://www.instagram.com/ivan_astapenko__/",
       "img": "/icons/linkedin.svg"
-    },
-    {
-      "src": "/",
-      "img": "/icons/twitter.svg"
     }
   ],
   "aboutText": "Вам потрібне таксі? Тоді вам до нас. До ваших послуг гарні легкові автомобілі та комфортні мікроавтобуси. Зустрінемо вас з поїзда чи літака у будь-якому місті, та доставимо вас до місця призначення швидко, комфортно та безпечно. Також і в зворотньому напрямку. Допоможемо з багажем та підскажемо все, що вас буде цікавити...",
