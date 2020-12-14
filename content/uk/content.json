@@ -31,14 +31,14 @@
       "paragraph": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
     }
   ],
-  "contactPhone1": "Name ...",
+  "contactPhone1": "+380977068777",
   "mapHeight": "23.351685",
   "contactTitile": "КОНТАКТИ ТА ЗАМОВЛЕННЯ",
-  "contactPhone2": "Name ...",
+  "contactPhone2": "+380674992437",
   "dataPhone": "Напишіть ваший номер телефону",
   "aboutTextBottom": "Також, щоб ви не скучали, пропонуємо вам індивідуальні екскурсії мальовничими куточками карпат. І, звісно, можемо вам допомогти у пошуках гарного та затишного житла у Східниці...",
-  "contactName1": "Name ...",
-  "contactName2": "Name ...",
+  "contactName1": "Іван",
+  "contactName2": "Роман",
   "seoKeywords": "Східниця таксі трансфер екскурсії проживання",
   "footerText": "© 2020, Таксі Східниця. До ваших послуг",
   "mapWidth": "49.226531",
@@ -49,31 +49,23 @@
   "dataImage": "/images/logomakerca-1607985295748.jpg",
   "contactSoz1": [
     {
-      "src": "/",
+      "src": "https://www.facebook.com/profile.php?id=100019553289043",
       "img": "/icons/facebook.svg"
     },
     {
-      "src": "/",
+      "src": "https://www.instagram.com/ivan_astapenko__/",
       "img": "/icons/linkedin.svg"
-    },
-    {
-      "src": "/",
-      "img": "/icons/twitter.svg"
     }
   ],
   "dataThanks": "Дякую. Чекайте на дзвінок.",
   "contactSoz2": [
     {
-      "src": "/",
+      "src": "https://www.facebook.com/profile.php?id=100023708408592",
       "img": "/icons/facebook.svg"
     },
     {
       "src": "/",
       "img": "/icons/linkedin.svg"
-    },
-    {
-      "src": "/",
-      "img": "/icons/twitter.svg"
     }
   ],
   "dataName": "Як ваз звати?",
