@@ -37,7 +37,7 @@ function SEO({ description, lang, meta, keywords, title }) {
       title={title}
       titleTemplate={`%s | ${content.seoTitle}`}
       meta={[
-        { name: 'google-site-verification', content: 'sXqePQOOvIGe8QB2kCRfbBN5cOJqLmtSqnu5urKW8Os' },
+        { name: 'google-site-verification', content: '2Aslpxr8KVVJKvUY9dN4GDdfkLnN2WPEQQobTbGoLkw' },
         {
           name: `description`,
           content: metaDescription,
