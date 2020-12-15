@@ -2,6 +2,10 @@
   "logo": "/images/logomakerca-1607975615017.jpg",
   "list": [
     {
+      "item": "Відгуки",
+      "src": "comments"
+    },
+    {
       "item": "Про нас",
       "src": "about"
     },

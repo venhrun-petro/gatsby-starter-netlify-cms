@@ -26,7 +26,7 @@ collections:
             widget: list
             fields:
               - {label: "List Name", name: "item", widget: string}
-              - {label: "List Image", name: "src", widget: image}
+              - {label: "List Image", name: "src", widget: string}
       - label: "Uk Content"
         name: "Uk Conetnt"
         file: "content/uk/content.json"
