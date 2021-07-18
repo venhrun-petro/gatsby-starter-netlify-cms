@@ -6,12 +6,12 @@
       "src": "comments"
     },
     {
-      "item": "Про нас",
-      "src": "about"
-    },
-    {
       "item": "Контакти та замовлення",
       "src": "contact"
+    },
+    {
+      "item": "Про нас",
+      "src": "about"
     }
   ]
 }
