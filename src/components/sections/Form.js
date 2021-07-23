@@ -19,10 +19,12 @@ useStaticQuery(graphql`
     allFile(filter: {name: {eq: "content"}}) {
       nodes {
         childEnJson {
-          contactPhone2
+          contactPhone2,
+          dataButton
         }
         childUkJson {
           contactPhone2,
+          dataButton
         }
         sourceInstanceName
       }
