@@ -23,6 +23,11 @@
         @include sm {
             padding: 43px 16px 49px;
         }
+        
+        .general-button {
+            margin: 30px auto 0;
+            padding: 20px 10px;
+        }
         &_title{
             display: block;
             color: $color-white;
