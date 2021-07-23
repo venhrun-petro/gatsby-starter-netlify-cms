@@ -10,33 +10,33 @@ import addToMailchimp from 'gatsby-plugin-mailchimp'
 export default function Form2() {
   const content = Content(useFormQuery())
 
-  const { value:firstName, bind:bindFirstName, reset:resetFirstName } = useInput('');
-  const { value:lastName, bind:bindLastName, reset:resetLastName } = useInput('');
-  const { value:guestName, bind:bindGuest, reset:resetGuest } = useInput('');
-  const { value:email, bind:bindEmail, reset:resetEmail } = useInput('');
-  const [ submit, setSubmit ] = useState(false);
+//   const { value:firstName, bind:bindFirstName, reset:resetFirstName } = useInput('');
+//   const { value:lastName, bind:bindLastName, reset:resetLastName } = useInput('');
+//   const { value:guestName, bind:bindGuest, reset:resetGuest } = useInput('');
+//   const { value:email, bind:bindEmail, reset:resetEmail } = useInput('');
+//   const [ submit, setSubmit ] = useState(false);
 
-  const handleSubmit = (evt) => {
-    evt.preventDefault();
-    // alert(`Submitting Name ${firstName} ${lastName}`);
-    // resetFirstName();
-    // resetLastName();
-    const discordData = {
-      MMERGE1: firstName,
-      MMERGE5: lastName
-    };
+//   const handleSubmit = (evt) => {
+//     evt.preventDefault();
+//     // alert(`Submitting Name ${firstName} ${lastName}`);
+//     // resetFirstName();
+//     // resetLastName();
+//     const discordData = {
+//       MMERGE1: firstName,
+//       MMERGE5: lastName
+//     };
 
-    addToMailchimp(mail, discordData) // listFields are optional if you are only capturing the email address.
-    .then(data => {
-      // I recommend setting data to React state
-      // but you can do whatever you want (including ignoring this `then()` altogether)
-      console.log(data)
-    })
-    .catch(() => {
-      // unnecessary because Mailchimp only ever
-      // returns a 200 status code
-      // see below for how to handle errors
-    })
+//     addToMailchimp(mail, discordData) // listFields are optional if you are only capturing the email address.
+//     .then(data => {
+//       // I recommend setting data to React state
+//       // but you can do whatever you want (including ignoring this `then()` altogether)
+//       console.log(data)
+//     })
+//     .catch(() => {
+//       // unnecessary because Mailchimp only ever
+//       // returns a 200 status code
+//       // see below for how to handle errors
+//     })
 
     // fetch('/',{
     //   method: 'POST',
@@ -44,16 +44,16 @@ export default function Form2() {
     //   body: encode({ 'form-name': 'Volter', ...discordData })
       
     // })
-    setSubmit(true);
+//     setSubmit(true);
   }
 
-  const mail = 'mail' + Math.floor(Math.random() * 52632 + 1) + '@gmail.com';
+//   const mail = 'mail' + Math.floor(Math.random() * 52632 + 1) + '@gmail.com';
   
   return(
     <>
-      {!submit ?
-        <form className="teaser_cont_form-normal" name="Volter"
-        data-netlify="true" onSubmit={handleSubmit}>
+//       {!submit ?
+//         <form className="teaser_cont_form-normal" name="Volter"
+//         data-netlify="true" onSubmit={handleSubmit}>
 //           <div className="teaser_cont_form-normal_block none" >
 //               <label className="teaser_cont_form-normal_block_data">
 //                 <span>
@@ -107,12 +107,12 @@ export default function Form2() {
               {content.dataButton}
             </a>
 //             <input type="hidden" name="form-name" value="Volter" />
-        </form>
-      :
-        <div className="teaser_cont_thanks">
-          <h2 className="teaser_cont_thanks_title">{content.dataThanks}</h2>
-        </div>
-     }
+//         </form>
+//       :
+//         <div className="teaser_cont_thanks">
+//           <h2 className="teaser_cont_thanks_title">{content.dataThanks}</h2>
+//         </div>
+//      }
     </>
   )
 }
@@ -124,19 +124,19 @@ useStaticQuery(graphql`
     allFile(filter: {name: {eq: "content"}}) {
       nodes {
         childEnJson {
-          dataImage
-          dataThanks
-          dataName
-          dataPhone
-          dataButton
+//           dataImage
+//           dataThanks
+//           dataName
+//           dataPhone
+//           dataButton
           contactPhone2
         }
         childUkJson {
-          dataImage
-          dataThanks
-          dataName
-          dataPhone
-          dataButton
+//           dataImage
+//           dataThanks
+//           dataName
+//           dataPhone
+//           dataButton
           contactPhone2,
         }
         sourceInstanceName
