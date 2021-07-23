@@ -54,59 +54,59 @@ export default function Form2() {
       {!submit ?
         <form className="teaser_cont_form-normal" name="Volter"
         data-netlify="true" onSubmit={handleSubmit}>
-          <div className="teaser_cont_form-normal_block none" >
-              <label className="teaser_cont_form-normal_block_data">
-                <span>
-                <Img src={content.dataImage} />
-                {content.dataName}
-                </span>
-                <div className="teaser_cont_form-normal_block_data_outside">
-                  <input
-                    name="EMAIL"
-                    value={mail}
-                    type="email" 
-                    placeholder="email" 
-                  /> 
-                </div>
-              </label>
-            </div>
-            <div className="teaser_cont_form-normal_block" >
-              <label className="teaser_cont_form-normal_block_data">
-                <span>
-                <Img src={content.dataImage} />
-                {content.dataName}
-                </span>
-                <div className="teaser_cont_form-normal_block_data_outside">
-                  <input
-                    name="MMERGE1"
-                    type="text" 
-                    placeholder="Name"
-                    {...bindFirstName}
-                  /> 
-                </div>
-              </label>
-            </div>
-            <div className="teaser_cont_form-normal_block">
-              <label className="teaser_cont_form-normal_block_data">
-                <span>
-                  <Img src={content.dataImage} />
-                  {content.dataPhone}
-                </span>
-                <div className="teaser_cont_form-normal_block_data_outside">
-                  <input
-                    type="text"
-                    name="MMERGE5"
-                    placeholder="Phone"
-                    {...bindLastName}
-                  /> 
-                </div>
-              </label>
-            </div> 
+//           <div className="teaser_cont_form-normal_block none" >
+//               <label className="teaser_cont_form-normal_block_data">
+//                 <span>
+//                 <Img src={content.dataImage} />
+//                 {content.dataName}
+//                 </span>
+//                 <div className="teaser_cont_form-normal_block_data_outside">
+//                   <input
+//                     name="EMAIL"
+//                     value={mail}
+//                     type="email" 
+//                     placeholder="email" 
+//                   /> 
+//                 </div>
+//               </label>
+//             </div>
+//             <div className="teaser_cont_form-normal_block" >
+//               <label className="teaser_cont_form-normal_block_data">
+//                 <span>
+//                 <Img src={content.dataImage} />
+//                 {content.dataName}
+//                 </span>
+//                 <div className="teaser_cont_form-normal_block_data_outside">
+//                   <input
+//                     name="MMERGE1"
+//                     type="text" 
+//                     placeholder="Name"
+//                     {...bindFirstName}
+//                   /> 
+//                 </div>
+//               </label>
+//             </div>
+//             <div className="teaser_cont_form-normal_block">
+//               <label className="teaser_cont_form-normal_block_data">
+//                 <span>
+//                   <Img src={content.dataImage} />
+//                   {content.dataPhone}
+//                 </span>
+//                 <div className="teaser_cont_form-normal_block_data_outside">
+//                   <input
+//                     type="text"
+//                     name="MMERGE5"
+//                     placeholder="Phone"
+//                     {...bindLastName}
+//                   /> 
+//                 </div>
+//               </label>
+//             </div> 
 
-            <button className="general-button" type="submit">
+            <a href={"tel:" + content.contactPhone2} className="general-button" type="button">
               {content.dataButton}
-            </button>
-            <input type="hidden" name="form-name" value="Volter" />
+            </a>
+//             <input type="hidden" name="form-name" value="Volter" />
         </form>
       :
         <div className="teaser_cont_thanks">
@@ -129,6 +129,7 @@ useStaticQuery(graphql`
           dataName
           dataPhone
           dataButton
+          contactPhone2
         }
         childUkJson {
           dataImage
@@ -136,6 +137,7 @@ useStaticQuery(graphql`
           dataName
           dataPhone
           dataButton
+          contactPhone2,
         }
         sourceInstanceName
       }
